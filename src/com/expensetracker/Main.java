@@ -26,17 +26,23 @@ public class Main {
             printMainMenu();
             int choice = Utils.readInt("Choose an option: ", SC);
             switch (choice) {
-                case 1 -> addExpenseFlow();
-                case 2 -> listExpensesFlow();
-                case 3 -> deleteExpenseFlow();
-                case 4 -> manageCategoriesFlow();
-                case 5 -> manageBudgetsFlow();
-                case 6 -> reportsFlow();
-                case 7 -> {
+                case 1:
+                    addExpenseFlow();
+                case 2:
+                    listExpensesFlow();
+                case 3:
+                    deleteExpenseFlow();
+                case 4:
+                    manageCategoriesFlow();
+                case 5:
+                    manageBudgetsFlow();
+                case 6:
+                    reportsFlow();
+                case 7:
                     System.out.println("Exiting. Goodbye!");
                     running = false;
-                }
-                default -> System.out.println("Invalid option. Try again.");
+                default:
+                    System.out.println("Invalid option. Try again.");
             }
             System.out.println();
         }
@@ -193,3 +199,4 @@ public class Main {
         }
     }
 }
+
