@@ -2,7 +2,7 @@
 
 
 
-Many individuals struggle to keep track of their daily expenses, categorize spending, and monitor monthly budgets. Without proper tracking, it becomes difficult to understand spending habits, identify unnecessary expenses, or maintain financial discipline. Existing tools may be too complex, require an internet connection, or demand advanced financial knowledge.
+Most people struggle to keep track of their daily expenses, categorize spending, and monitor monthly budgets. Without proper tracking, it's difficult to understand spending habits, identify unnecessary expenses, or maintain financial discipline. Existing tools may be too complex, require an internet connection, or demand advanced financial knowledge.
 
 The \*\*Personal Expense Tracker\*\* addresses this issue by providing a simple, offline, Java-based console application that allows users to record, categorize, and analyze their expenses efficiently.
 
@@ -121,4 +121,5 @@ The project does \*\*not\*\* include multi-user support, advanced analytics, or 
 \* All data stored in CSV files
 
 \* Data automatically loaded and saved for each session
+
 
